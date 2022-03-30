@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary: #e84118;
+  --secondary: #464646;
+  --tertiary: #72605b;
+}
+
+body {
+  background-color: #f9f6f6;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.form-control {
+  border-radius: 0px !important;
+  background-color: #cecfd0 !important;
+  color: #675151 !important;
+}
+.text-heading {
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.btn {
+  padding: 10px 30px !important;
+}
+
+.btn-primary {
+  background-color: var(--primary) !important;
+  outline: none !important;
+  border: none !important;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+.btn-primary:hover {
+  background-color: #ce3b17 !important;
+}
+
+.navbar {
+  background-color: transparent !important;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hero-texts {
+  max-width: 800px;
+}
+
+.hero-texts h1 {
+  font-size: 3rem;
+  color: var(--secondary);
+}
+
+.hero-texts p {
+  font-size: 1.5rem;
+  color: var(--tertiary);
+  font-weight: 300;
+  margin: 15px 0px;
+}
+
+.card {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  font-weight: bold;
+}
+.card-text {
+  color: var(--secondary);
+}
+
+.footer {
+  padding: 20px 30px;
+  background-color: #000;
+  line-height: 0;
+}
+
+.footer h5 {
+  color: #fff;
+  line-height: 2;
+  font-weight: bold;
+  letter-spacing: 1.5;
+}
+
+.circle-services {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  margin: 10px 0px;
+}
+
+.services-circle h5 {
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.icon-services {
+  color: #fff;
+  font-size: 2rem;
+  padding: 30px 0px;
+}
+
+/* responsive */
+
+@media (max-width: 478px) {
+  .hero-texts h1 {
+    font-size: 2rem;
+  }
+  .hero-texts p {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .hero-texts {
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-img img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-text {
+    margin: 30px 0px !important;
+  }
+
+  .card-container {
+    margin: 20px 0px !important;
+  }
+}
