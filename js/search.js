@@ -1,5 +1,6 @@
 /*
     - Search Functionality For Cuisine Website
+    Author: Yaman Sarabariya & Sajjan Karn
 */
 
 // sets data in datalist of input for search suggestions
@@ -24,6 +25,10 @@ window.onload = () => {
   
   search_by_cuisine.addEventListener("keyup", () => {
     if(!search_by_cuisine.value) return;
+    if(search_by_cuisine.value.trim().toLowerCase() === "all") {
+        renderAllCuisines();
+        return
+    }
     searchByCuisine(search_by_cuisine.value.trim());
   });
   
@@ -161,6 +166,14 @@ window.onload = () => {
     });
   
     if (result.length < 1) return;
+    renderResult(result);
+  }
+
+  async function renderAllCuisines() {
+    let result = [];
+    await fetchAll().then(data => {
+        result = data;
+    })
     renderResult(result);
   }
   
