@@ -16,6 +16,26 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
+
+    <style>
+
+      ::-webkit-scrollbar {
+        width: 5px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: gray;
+        border-radius: 10px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+    </style>
   </head>
   <body>
     <!-- navbar  -->
@@ -41,13 +61,13 @@
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -94,7 +114,7 @@
 
     <hr />
 
-    <div class="about-section py-5">
+    <div class="about-section py-5" id="about">
       <div class="container">
         <h2 class="text-center text-heading mb-5">
           <span class="text-primary">About</span> Us
@@ -132,7 +152,7 @@
       </div>
     </div>
     <hr />
-    <div class="services py-5">
+    <div class="services py-5" id="services">
       <div class="container">
         <h2 class="text-center text-heading mb-5">
           Our <span class="text-primary">Services</span>
@@ -198,7 +218,7 @@
     </div>
     <hr />
     <!-- menus -->
-    <div class="menus py-5">
+    <div class="menus py-5" id="menu">
       <div class="container">
         <h2 class="text-center text-heading mb-5">
           Our <span class="text-primary">Menus</span>
@@ -216,9 +236,14 @@
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title"> Chatamari</h5>
+                <h5 class="card-title">Chatamari</h5>
                 <p class="card-text">
-                  This dish is the traditional food of the Newari people of Nepal. Chatamari travelled from the homes and traditional festivals of the Newari people, indigenous to Nepal, to now its streets and restaurants. It is essentially a pancake, made of rice flour, and topped with a spicy, tasty filling, usually made non-vegetarian with meat or eggs.
+                  This dish is the traditional food of the Newari people of
+                  Nepal. Chatamari travelled from the homes and traditional
+                  festivals of the Newari people, indigenous to Nepal, to now
+                  its streets and restaurants. It is essentially a pancake, made
+                  of rice flour, and topped with a spicy, tasty filling, usually
+                  made non-vegetarian with meat or eggs.
                 </p>
                 <a href="./cuisine.html" class="btn btn-primary">Learn More</a>
               </div>
@@ -237,7 +262,14 @@
               <div class="card-body">
                 <h5 class="card-title">Choila</h5>
                 <p class="card-text">
-                  Another Newari delicacy, Choila is a spiced, grilled meat dish, traditionally prepared with water buffalo meat. One can also find other versions made with duck, chicken or mutton. It’s packed with heat and spice, so be sure you can take it before you gorge into it. This spicy, mouth- and the eye-watering dish is typically served with Chiura or flaked rice, that complements the soft, chewy meat well with its crunch. 
+                  Another Newari delicacy, Choila is a spiced, grilled meat
+                  dish, traditionally prepared with water buffalo meat. One can
+                  also find other versions made with duck, chicken or mutton.
+                  It’s packed with heat and spice, so be sure you can take it
+                  before you gorge into it. This spicy, mouth- and the
+                  eye-watering dish is typically served with Chiura or flaked
+                  rice, that complements the soft, chewy meat well with its
+                  crunch.
                 </p>
                 <a href="./cuisine.html" class="btn btn-primary">Learn More</a>
               </div>
@@ -256,7 +288,14 @@
               <div class="card-body">
                 <h5 class="card-title">Maas Ko Baara</h5>
                 <p class="card-text">
-                  Sizzling on a hot Tawa, or griddle, one can find this conventional Newari “pancake” attracting many people to its smell and taste. Pre-soaked Black and green lentils (urad dal) are pasted along with added spices and flavours. This ground paste is patted into round discs or patties that are fried in mustard oil, to make the Baara. Once cooked, you may see some breaking an egg over the pancake, or adding meat to the batter, to make non-vegetarian versions of the baara. 
+                  Sizzling on a hot Tawa, or griddle, one can find this
+                  conventional Newari “pancake” attracting many people to its
+                  smell and taste. Pre-soaked Black and green lentils (urad dal)
+                  are pasted along with added spices and flavours. This ground
+                  paste is patted into round discs or patties that are fried in
+                  mustard oil, to make the Baara. Once cooked, you may see some
+                  breaking an egg over the pancake, or adding meat to the
+                  batter, to make non-vegetarian versions of the baara.
                 </p>
                 <a href="./cuisine.html" class="btn btn-primary">Learn More</a>
               </div>
@@ -266,7 +305,7 @@
       </div>
     </div>
     <hr />
-    <div class="contact-us py-5">
+    <div class="contact-us py-5" id="contact">
       <div class="container">
         <h2 class="text-center text-heading">
           Contact <span class="text-primary">Us</span>
