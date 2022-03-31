@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/cuisine.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search__fields" style="background-color: #e84118;">
+        <!-- search by cuisine -->
+        <input
+          type="text"
+          name="cuisine"
+          list="cuisine"
+          id="search_by_cuisine"
+          placeholder="Search Cuisine"
+        />
+
+        <datalist id="cuisine"></datalist>
+
+        <!-- search by location -->
+        <input
+          type="text"
+          name="hotel"
+          list="hotel"
+          placeholder="Search Hotel"
+          id="search_by_hotel"
+        />
+
+        <datalist id="hotel"></datalist>
+
+        <!-- search by location -->
+        <input
+          type="text"
+          name="location"
+          list="location"
+          placeholder="Search location"
+          id="search_by_location"
+        />
+
+        <datalist id="location"></datalist>
+      </div>
+
+      <div id="result">
+      </div>
+    </div>
+  </body>
+
+  <!-- javascript files -->
+  <script src="./js/search.js"></script>
+</html>

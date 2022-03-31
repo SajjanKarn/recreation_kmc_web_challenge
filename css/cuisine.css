@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container { 
+    min-height: 100vh;
+    width: 100%;
+    background: #f9f6f6;
+}
+
+.light-shadow {
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  }
+
+.search__fields { 
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.search__fields > input {
+    height: 50px;
+    width: 400px;
+    margin: 20px;
+    outline: none;
+    border: 2px solid lightblue;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+#result {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#result > .card { 
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+
+}
+
+#result > .card > img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#result > .card > p {
+    font-size: 1.2rem;
+    margin: 0 10px;
+}
+
+.food__price {
+    margin-top: 5px;
+}
+
+@media all and (max-width: 850px) {
+    .search__fields > input {
+        height: 30px;
+        max-width: 300px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .search__fields  {
+        flex-direction: column;
+    }
+}

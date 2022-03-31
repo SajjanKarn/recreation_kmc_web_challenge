@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Chatamari",
+        "price": "Rs. 350",
+        "url": "/assets/chatamari.jpg",
+        "available_at": ["Jhigu Bhoe Chhen", "The Kathmandu Hotel"]
+    },
+    {
+        "name": "Choila",
+        "price": "Rs. 400",
+        "url": "/assets/choila.jpg",
+        "available_at": ["Jhigu Bhoe Chhen", "Himali Kitchen"]
+    },
+    {
+        "name": "Maas Ko Baara",
+        "price": "Rs. 250",
+        "url": "/assets/bara.jpg",
+        "available_at": ["Bhojan Kendra", "Himali Kitchen"]
+    },
+    {
+        "name": "Sekuwa",
+        "price": "Rs. 500",
+        "url": "/assets/sekuwa.jpg",
+        "available_at": ["Bajeko Sekuwa", "The Kathmandu Hotel"]
+    },
+    {
+        "name": "Thukpa",
+        "price": "Rs. 200",
+        "url": "/assets/thukpa.jpg",
+        "available_at": ["Yangling Tibetan Restaurant", "Chicken Station"]
+    },
+    {
+        "name": "Thukpa",
+        "price": "Rs. 200",
+        "url": "/assets/thukpa.jpg",
+        "available_at": ["Yangling Tibetan Restaurant", "Chicken Station"]
+    },
+    {
+        "name": "Aloo Chop",
+        "price": "Rs. 150",
+        "url": "/assets/chop.jpg",
+        "available_at": ["Tukche Thakali Kitchen", "Chicken Station", "Coffee Station"]
+    },
+    {
+        "name": "Dal Bhat",
+        "price": "Rs. 300",
+        "url": "/assets/bhat.jpg",
+        "available_at": ["Tukche Thakali Kitchen", "DalBhat Nepali Kitchen"]
+    }
+]

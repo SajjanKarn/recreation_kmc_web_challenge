@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Handi Biryani",
+        "location": "Jawlakhel , Lalitpur"
+    }, 
+    {
+        "name": "Chicken Station",
+        "location": "Maitighar , Kathmandu"
+    }, 
+    {
+        "name": "Maitighar Cafe",
+        "location": "Maitighar , Kathmandu"
+    },
+    {
+        "name":"Coffee Station", 
+        "location": "Thapathali , Kathmandu"
+    },
+    {
+        "name": "Punjabi Restaurant", 
+        "location": "Lagankhel , Lalitpur"
+    }, 
+    {
+        "name": "Bhojan Kendra", 
+        "location": "New Baneshwor , Kathmandu"
+    },
+    {
+        "name": "The Kathmandu Hotel", 
+        "location": "Basantapur , Kathmandu"
+    },
+    {
+        "name": "Shandaar Momo",
+        "location": "Basantapur , Kathmandu"
+    },
+    {
+        "name": "Jhigu Bhoe Chhen",
+        "location": "Amrit Marg , Kathmandu"
+    },
+    {
+        "name": "Himali Kitchen",
+        "location": "Paryatan Marg , Kathmandu"
+    },
+    {
+        "name": "Bajeko Sekuwa",
+        "location": "Kamalpokhari , Kathmandu"
+    },
+    {
+        "name": "Yangling Tibetan Restaurant",
+        "location": "Kaldhara Marg , Kathmandu"
+    },
+    {
+        "name": "Tukche Thakali Kitchen",
+        "location": "Garidhara , Kathmandu"
+    }, 
+    {
+        "name": "DalBhat Nepali Kitchen",
+        "location": "Lazimpat Road , Kathmandu"
+    }, 
+    {
+        "name": "Tibetan Kitchen",
+        "location": "Boudhanath Stupa , Kathmandu"
+    }, 
+    {
+        "name": "Bhaktapur King Curd Shop", 
+        "location": "Old Freak Street, Kathmandu"
+    },
+    {
+        "name": "Kasthamandap Mithai Bhandar",
+        "location":"Kathmandu"
+    },
+    {
+        "name": "Janakpur Dahi Lassi Bhandar",
+        "location": "Indra Chowk , Kathmandu"
+    }
+]
