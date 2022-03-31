@@ -8,71 +8,70 @@
 
     <link rel="stylesheet" href="./css/cuisine.css" />
     <style>
+      ::-webkit-scrollbar {
+        width: 5px;
+      }
 
-        ::-webkit-scrollbar {
-          width: 5px;
-        }
-  
-        ::-webkit-scrollbar-track {
-          background: #f1f1f1;
-        }
-  
-        ::-webkit-scrollbar-thumb {
-          background: gray;
-          border-radius: 10px;
-        }
-  
-        ::-webkit-scrollbar-thumb:hover {
-          background: #555;
-        }
-      </style>
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: gray;
+        border-radius: 10px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
-      <div class="search__field" style="background-color: #e84118;">
-        
+      <div class="search__field" style="background-color: #e84118">
         <div class="heading">
-            <h2 style="color: white;">Find your cuisine</h2>
+          <h2 style="color: white">Find your cuisine</h2>
         </div>
 
-       <div class="search__fields">
-            <!-- search by cuisine -->
-        <input
-        type="text"
-        name="cuisine"
-        list="cuisine"`
-        id="search_by_cuisine"
-        placeholder="Search Cuisine, e.g Type All "
-      />
+        <div class="search__fields">
+          <!-- search by cuisine -->
+          <input
+            type="text"
+            name="cuisine"
+            list="cuisine"
+            `
+            id="search_by_cuisine"
+            placeholder="Search Cuisine, e.g Type All "
+          />
 
-      <datalist id="cuisine"></datalist>
+          <datalist id="cuisine"></datalist>
 
-      <!-- search by location -->
-      <input
-        type="text"
-        name="hotel"
-        list="hotel"
-        placeholder="Search Hotel"
-        id="search_by_hotel"
-      />
+          <!-- search by location -->
+          <input
+            type="text"
+            name="hotel"
+            list="hotel"
+            placeholder="Search Hotel"
+            id="search_by_hotel"
+          />
 
-      <datalist id="hotel"></datalist>
+          <datalist id="hotel"></datalist>
 
-      <!-- search by location -->
-      <input
-        type="text"
-        name="location"
-        list="location"
-        placeholder="Search location"
-        id="search_by_location"
-      />
+          <!-- search by location -->
+          <input
+            type="text"
+            name="location"
+            list="location"
+            placeholder="Search location"
+            id="search_by_location"
+          />
 
-      <datalist id="location"></datalist>
-       </div>
+          <datalist id="location"></datalist>
+        </div>
       </div>
 
       <div id="result">
-          <h1>Find Your Favourite Cuisine in Valley.</h1>
+        <h1>Find Your Favourite Cuisine in Valley.</h1>
       </div>
     </div>
   </body>

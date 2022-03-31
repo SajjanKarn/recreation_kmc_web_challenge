@@ -17,6 +17,7 @@ body {
   background-color: #f9f6f6;
 }
 
+/* over riding default variables  */
 .text-primary {
   color: var(--primary) !important;
 }
@@ -61,6 +62,8 @@ body {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 
+/* hero  */
+
 .hero-texts {
   max-width: 800px;
 }
@@ -77,12 +80,22 @@ body {
   margin: 15px 0px;
 }
 
+/* about section  */
+
 .about-img {
   border-radius: 20px !important;
 }
 
+/* card  */
+
 .card {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.7s;
 }
 
 .card-title {
@@ -92,6 +105,7 @@ body {
   color: var(--secondary);
 }
 
+/* footer  */
 .footer {
   padding: 20px 30px;
   background-color: #000;
@@ -113,6 +127,10 @@ body {
   margin: 10px 0px;
 }
 
+.circle-services:hover {
+  background-color: #ce3b17;
+}
+
 .services-circle h5 {
   font-weight: bold;
   margin: 10px 0px;
@@ -129,6 +147,7 @@ body {
 @media (max-width: 478px) {
   .hero-texts h1 {
     font-size: 2rem;
+    text-align: center;
   }
   .hero-texts p {
     text-align: center;
@@ -137,17 +156,69 @@ body {
   .hero-texts {
     justify-content: center;
     align-items: center;
+    padding: 20px 0px;
+  }
+  div.lines {
+    display: none;
   }
   .hero-img img {
-    width: 200px;
-    height: 200px;
+    width: 300px !important;
+    height: 300px !important;
   }
-
   .about-text {
     margin: 30px 0px !important;
   }
 
   .card-container {
     margin: 20px 0px !important;
+  }
+}
+
+@media (min-width: 478px) and (max-width: 575px) {
+  .hero-texts h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  div.lines {
+    display: none;
+  }
+  .hero-texts p {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .hero-texts {
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+  }
+  .hero-img img {
+    width: 400px !important;
+    height: 400px !important;
+  }
+  .card-container {
+    margin: 20px 0px !important;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 768px) {
+  .hero-texts h1 {
+    font-size: 3rem;
+  }
+  div.lines {
+    margin: 20px 0px;
+  }
+  .hero-img img {
+    width: 400px !important;
+    height: 400px !important;
+  }
+  .card-container {
+    margin: 20px 0px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-img img {
+    width: 300px !important;
+    height: 300px !important;
   }
 }
