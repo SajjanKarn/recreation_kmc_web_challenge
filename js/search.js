@@ -155,15 +155,20 @@ async function searchByLocation(location) {
     });
   });
 
+  console.log(hotels)
+
   let result = [];
   await fetchAll().then((data) => {
     data.forEach((item, i) => {
-      if (hotels.includes(hotels[i])) {
+        console.log(hotels[0])
+      if (item.available_at.includes(hotels[0])) {
+          console.log("hit...")
         result.push(item);
       }
     });
   });
 
+  console.log(result)
   if (result.length < 1) return;
   renderResult(result);
 }
